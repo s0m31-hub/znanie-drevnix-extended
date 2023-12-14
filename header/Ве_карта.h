@@ -1,6 +1,3 @@
-//
-// Created by Lenovo on 14.12.2023.
-//
 
 #ifndef Карта_к_Байкалу
 #define Карта_к_Байкалу
