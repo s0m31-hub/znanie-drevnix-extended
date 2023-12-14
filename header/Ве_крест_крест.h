@@ -1,9 +1,6 @@
 ﻿#ifndef Байкал
 #define Байкал
-
-#ifdef _WIN32
-#include <Windows.h>
-#define вперёд_славяне SetConsoleOutputCP(1251)
+#define вперёд_славяне SetLocale(LC_ALL, "Russian");
 #else
 #include <unistd.h>
 #define вперёд_славяне
@@ -14,6 +11,8 @@
 #include <cstring>
 
 //ISTART
+
+
 #define царь_батюшка_главный int main
 #define внедрить using
 #define обозвать typedef
@@ -54,6 +53,7 @@
 #define получи_басурман throw
 #define гнев_Перуна exception
 #define страшный_гнев_Перуна Русь::runtime_error
+#define узрить what
 #define читать_летопись ifstream
 #define писать_летопись ofstream
 #define зажать_яйцами Русь::remove
@@ -87,7 +87,13 @@
 #define меняло std::swap
 #define отщипнуть get
 #define отторгать ignore
-#define мерить_ящера length
+#define длина_ящера length
+
+#define измерить_ящера sizeof
+#define посчитать_буквы strlen
+
+#define рассвет begin;
+#define закат end;
 
 #define обуздать #include
 
@@ -125,6 +131,4 @@
 
 
 перепись счёт_древних_русов{ ноль = 0, целковый = 1, полушка = 2, четвертушка = 3, осьмушка = 4,
-пудовичок = 5, медячок = 6, серебрячок = 7, золотничок = 8, девятичок = 9, десятичок = 10 };
-
-#endif
+    пудовичок = 5, медячок = 6, серебрячок = 7, золотничок = 8, девятичок = 9, десятичок = 10 };
