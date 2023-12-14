@@ -53,6 +53,7 @@
 #define мощь pow
 #define получи_басурман throw
 #define гнев_Перуна exception
+#define страшный_гнев_Перуна Русь::runtime_error
 #define читать_летопись ifstream
 #define писать_летопись ofstream
 #define летопись fstream
