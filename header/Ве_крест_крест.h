@@ -11,8 +11,9 @@
 
 #include <fstream>
 #include <iostream>
+#include <cstring>
 
-
+//ISTART
 #define царь_батюшка_главный int main
 #define внедрить using
 #define обозвать typedef
@@ -31,6 +32,7 @@
 #define династия class
 #define семейство struct
 #define перепись enum
+#define я this
 
 #define бить_ящеров break
 #define добить_ящеров continue
@@ -82,7 +84,31 @@
 #define отток_Байкала istream
 #define меняло std::swap
 #define отщипнуть get
+#define отторгать ignore
+#define мерить_ящера length
 
+#define обуздать #include
+
+#define арифметика <cmath>
+#define множить *
+#define меньшить /
+#define сложить +
+#define отнять -
+#define кологодина sin
+#define колонегодина cos
+#define искать_мощь log
+#define исправить abs
+#define иль_целина isdigit
+
+#define научить_буквам strcpy
+#define направить_буквы c_str
+
+
+#define або ||
+#define да &&
+#define неуч !
+
+//IEND
 внедрить целина = int;
 внедрить вель_дробь = double;
 внедрить малый_дробь = float;
