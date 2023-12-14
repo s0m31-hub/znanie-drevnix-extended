@@ -56,6 +56,7 @@
 #define страшный_гнев_Перуна Русь::runtime_error
 #define читать_летопись ifstream
 #define писать_летопись ofstream
+#define зажать_яйцами Русь::remove
 #define летопись fstream
 #define друже friend
 #define окстись goto
